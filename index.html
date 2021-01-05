@@ -5,8 +5,20 @@ robots: noindex
 
 <div class="main-post-list">
   <ol class="post-list">
-    {% for post in paginator.posts reversed %}
-      {% if post.title == 'Education'%}
+    {% assign sortedPosts = paginator.posts | sort: 'order' %}
+    {% for post in sortedPosts %}
+      {% if post.title == 'Work' %}
+      <li>
+        <h2 class="post-list__post-title post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+            <i class="fas fa-briefcase right-margined"></i>
+            {{ post.title }}
+          </a>
+        </h2>
+      </li>
+      {% endif %}
+
+      {% if post.title == 'Education' %}
       <li>
         <h2 class="post-list__post-title post-title">
           <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
@@ -17,7 +29,18 @@ robots: noindex
       </li>
       {% endif %}
 
-      {% if post.title == 'Contact'%}
+      {% if post.title == 'Problem Solving' %}
+      <li>
+        <h2 class="post-list__post-title post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+            <i class="fas fa-code right-margined"></i>
+            {{ post.title }}
+          </a>
+        </h2>
+      </li>
+      {% endif %}
+
+      {% if post.title == 'Contact' %}
       <li>
         <h2 class="post-list__post-title post-title">
           <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
@@ -27,7 +50,6 @@ robots: noindex
         </h2>
       </li>
       {% endif %}
-      
     {% endfor %}
   </ol>
 

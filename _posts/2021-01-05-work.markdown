@@ -1,0 +1,28 @@
+---
+title: "Work"
+date: 2021-01-04 23:01:58
+order: 1
+---
+
+Software Engineer II
+\\
+Jan 2020 - Present
+\\
+[Therap BD Ltd.][therapbd]
+\\
+\\
+Software Engineer
+\\
+Jan 2018 - Dec 2019
+\\
+[Therap BD Ltd.][therapbd]
+\\
+\\
+Associate Software Engineer
+\\
+Jan 2017 - Dec 2017
+\\
+[Therap BD Ltd.][therapbd]
+
+
+[therapbd]:         http://therapbd.com/
