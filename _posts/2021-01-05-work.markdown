@@ -4,9 +4,16 @@ date: 2021-01-04 23:01:58
 order: 1
 ---
 
+Senior Software Engineer
+\\
+Apr 2022 - Present
+\\
+[Therap BD Ltd.][therapbd]
+\\
+\\
 Software Engineer II
 \\
-Jan 2020 - Present
+Jan 2020 - Mar 2022
 \\
 [Therap BD Ltd.][therapbd]
 \\
